@@ -1,0 +1,17 @@
+{
+  "period": "July\u2013December 2013, UTC interval starts",
+  "households": 248,
+  "households_with_any_loss_month": 55,
+  "h2_savers_with_loss_month": 48,
+  "households_with_three_consecutive_loss_months": 10,
+  "monthly_to_h2_reconciliation_passed": true,
+  "rebates_applied": false,
+  "limitations": [
+    "Historical backtest, not live monitoring.",
+    "Monthly 2% thresholds are review flags, not bill guarantees.",
+    "Profile changes do not establish tariff unsuitability.",
+    "Zero-consumption profiles remain unclassified.",
+    "Consecutive-month measures cover this six-month window only.",
+    "No automatic switching or rebate payments were performed."
+  ]
+}

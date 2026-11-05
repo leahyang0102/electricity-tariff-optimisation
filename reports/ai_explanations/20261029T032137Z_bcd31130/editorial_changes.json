@@ -1,0 +1,18 @@
+[
+  {
+    "case_id": "CASE_007",
+    "changes": [
+      "Removed unsupported inference about unchanged consumption.",
+      "Clarified the evaluated period and pre-rebate charge basis.",
+      "Simplified the threshold explanation."
+    ]
+  },
+  {
+    "case_id": "CASE_005",
+    "changes": [
+      "Removed technical field names from prose.",
+      "Clarified the pre-rebate charge basis and rounding.",
+      "Clarified that profile change alone does not imply unsuitability."
+    ]
+  }
+]

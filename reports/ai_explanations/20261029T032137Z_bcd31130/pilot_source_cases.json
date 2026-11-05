@@ -1,0 +1,116 @@
+[
+  {
+    "case_id": "CASE_001",
+    "household_id": "MAC000390",
+    "source": {
+      "run_id": "20261029T025921Z_333b1572",
+      "file": "customer_monitoring.csv",
+      "row_key": "MAC000390"
+    },
+    "period": {
+      "start_utc": "2013-07-01T00:00:00+00:00",
+      "end_exclusive_utc": "2014-01-01T00:00:00+00:00"
+    },
+    "facts": {
+      "assigned_tariff": "Time-of-use",
+      "currency": "GBP",
+      "charge_basis": "Energy charges before rebates",
+      "baseline_charge_gbp": 311.767350634632,
+      "assigned_charge_gbp": 312.326759895,
+      "charge_outcome_vs_flat": "higher",
+      "absolute_charge_difference_gbp": 0.5594092603679997,
+      "absolute_charge_difference_pct": 0.1794316368372984,
+      "paying_more": true,
+      "above_review_threshold": false,
+      "review_threshold_pct": 2.0,
+      "design_profile_group": "Other consumption profiles",
+      "evaluated_profile_group": "Other consumption profiles",
+      "profile_changed": false
+    },
+    "interpretation_limits": [
+      "This is a historical tariff simulation.",
+      "Standing charges and fixed charges are excluded.",
+      "The review threshold is not a monthly bill guarantee.",
+      "Profile changes alone do not establish tariff unsuitability.",
+      "Appliance types and causes of change are unknown.",
+      "Future savings and rebates are not guaranteed."
+    ],
+    "review_status": "Pending human review"
+  },
+  {
+    "case_id": "CASE_007",
+    "household_id": "MAC004646",
+    "source": {
+      "run_id": "20261029T025921Z_333b1572",
+      "file": "customer_monitoring.csv",
+      "row_key": "MAC004646"
+    },
+    "period": {
+      "start_utc": "2013-07-01T00:00:00+00:00",
+      "end_exclusive_utc": "2014-01-01T00:00:00+00:00"
+    },
+    "facts": {
+      "assigned_tariff": "Time-of-use",
+      "currency": "GBP",
+      "charge_basis": "Energy charges before rebates",
+      "baseline_charge_gbp": 494.752804855036,
+      "assigned_charge_gbp": 508.43332978600006,
+      "charge_outcome_vs_flat": "higher",
+      "absolute_charge_difference_gbp": 13.680524930964054,
+      "absolute_charge_difference_pct": 2.765123268977219,
+      "paying_more": true,
+      "above_review_threshold": true,
+      "review_threshold_pct": 2.0,
+      "design_profile_group": "Other consumption profiles",
+      "evaluated_profile_group": "Other consumption profiles",
+      "profile_changed": false
+    },
+    "interpretation_limits": [
+      "This is a historical tariff simulation.",
+      "Standing charges and fixed charges are excluded.",
+      "The review threshold is not a monthly bill guarantee.",
+      "Profile changes alone do not establish tariff unsuitability.",
+      "Appliance types and causes of change are unknown.",
+      "Future savings and rebates are not guaranteed."
+    ],
+    "review_status": "Pending human review"
+  },
+  {
+    "case_id": "CASE_005",
+    "household_id": "MAC004515",
+    "source": {
+      "run_id": "20261029T025921Z_333b1572",
+      "file": "customer_monitoring.csv",
+      "row_key": "MAC004515"
+    },
+    "period": {
+      "start_utc": "2013-07-01T00:00:00+00:00",
+      "end_exclusive_utc": "2014-01-01T00:00:00+00:00"
+    },
+    "facts": {
+      "assigned_tariff": "Time-of-use",
+      "currency": "GBP",
+      "charge_basis": "Energy charges before rebates",
+      "baseline_charge_gbp": 355.441335088052,
+      "assigned_charge_gbp": 293.15629012200003,
+      "charge_outcome_vs_flat": "lower",
+      "absolute_charge_difference_gbp": 62.285044966052,
+      "absolute_charge_difference_pct": 17.52329816975912,
+      "paying_more": false,
+      "above_review_threshold": false,
+      "review_threshold_pct": 2.0,
+      "design_profile_group": "Night-concentrated profile",
+      "evaluated_profile_group": "Other consumption profiles",
+      "profile_changed": true
+    },
+    "interpretation_limits": [
+      "This is a historical tariff simulation.",
+      "Standing charges and fixed charges are excluded.",
+      "The review threshold is not a monthly bill guarantee.",
+      "Profile changes alone do not establish tariff unsuitability.",
+      "Appliance types and causes of change are unknown.",
+      "Future savings and rebates are not guaranteed."
+    ],
+    "review_status": "Pending human review"
+  }
+]

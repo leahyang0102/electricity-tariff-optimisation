@@ -1,0 +1,5 @@
+﻿cost_increase_pct,revenue_after_rebate_gbp,variable_cost_gbp,contribution_gbp,contribution_margin_pct,margin_constraint_pass,margin_target_pct,scenario_basis
+0,65686.76471293633,48949.246078669006,16737.518634267326,25.480808359817186,True,25.0,Post-validation rebate scenario
+5,65686.76471293633,51396.70838260246,14290.056330333871,21.75484877780804,False,25.0,Post-validation rebate scenario
+10,65686.76471293633,53844.17068653591,11842.594026400424,18.028889195798904,False,25.0,Post-validation rebate scenario
+20,65686.76471293633,58739.0952944028,6947.669418533529,10.576970031780627,False,25.0,Post-validation rebate scenario

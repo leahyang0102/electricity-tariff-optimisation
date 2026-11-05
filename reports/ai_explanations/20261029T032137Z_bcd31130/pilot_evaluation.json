@@ -1,0 +1,21 @@
+{
+  "source_run_id": "20261029T025921Z_333b1572",
+  "pilot_cases": 3,
+  "saved_api_responses": 5,
+  "edited_drafts": 3,
+  "review_status": "Pending human review",
+  "observations": [
+    "Initial CASE_001 used unqualified evidence field names.",
+    "Initial CASE_007 omitted the exceeded review threshold.",
+    "Initial CASE_005 omitted the profile-change review reason.",
+    "Revised CASE_007 inferred unchanged consumption from an unchanged cluster assignment.",
+    "Editorial corrections were applied separately from raw responses."
+  ],
+  "limitations": [
+    "Three selected cases are not a representative quality benchmark.",
+    "Edited drafts are not evidence of unedited model accuracy.",
+    "Structure and evidence coverage do not establish factual correctness.",
+    "No customer messages were sent.",
+    "AI generation is not yet integrated into the standalone pipeline."
+  ]
+}

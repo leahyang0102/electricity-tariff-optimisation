@@ -1,0 +1,13 @@
+case,passed
+Valid input accepted,True
+Reversed period,True
+Misaligned period boundary,True
+Missing interval,True
+Duplicate interval,True
+Negative energy,True
+Missing energy,True
+Unexpected household,True
+Manual TOU bill calculation,True
+Flat tariff assignment retained,True
+Variable-cost calculation,True
+Below / exact / above 2% threshold,True

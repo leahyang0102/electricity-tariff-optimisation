@@ -1,0 +1,25 @@
+﻿case_id,household_id,source_run_id,draft_origin,explanation,suggested_review,limitations,review_status,reviewer,reviewed_at_utc,reviewer_comments
+CASE_001,MAC000390,20261029T025921Z_333b1572,"AI-generated, subsequently edited","In this historical tariff simulation, the assigned tariff for this household is 'Time-of-use'.
+The household's energy charges before rebates amount to GBP 312.33.
+Compared to a flat tariff, the household is paying more with an absolute charge difference of GBP 0.56.
+The absolute charge difference represents a percentage increase of 0.18%.",This case should be reviewed by a human analyst due to the higher energy charge.,"This is a historical tariff simulation.
+Standing charges and fixed charges are excluded.
+The review threshold is not a monthly bill guarantee.
+Profile changes alone do not establish tariff unsuitability.
+Appliance types and causes of change are unknown.
+Future savings and rebates are not guaranteed.",Pending human review,,,
+CASE_007,MAC004646,20261029T025921Z_333b1572,"AI-generated, subsequently edited","In this historical tariff simulation for July–December 2013 (UTC interval starts), energy charges before rebates were GBP 508.43, compared with GBP 494.75 under flat pricing. The increase was GBP 13.68 (2.77%).
+The increase exceeded the 2.00% review threshold for the evaluated period.
+The household remained in Other consumption profiles. An unchanged cluster assignment does not establish that its consumption pattern was unchanged.",Human review is recommended for the recorded facts regarding changes in energy charges and the impact on the household's tariff assessment.,"Standing charges and fixed charges are excluded.
+The review threshold is not a monthly bill guarantee.
+Profile changes alone do not establish tariff unsuitability.
+Appliance types and causes of change are unknown.
+Future savings and rebates are not guaranteed.",Pending human review,,,
+CASE_005,MAC004515,20261029T025921Z_333b1572,"AI-generated, subsequently edited","In this historical tariff simulation, energy charges before rebates were GBP 293.16, lower than flat pricing.
+Savings were GBP 62.29 (17.52%), calculated from the unrounded source charges.
+The household moved from Night-concentrated profile to Other consumption profiles.
+The household still saved during the evaluated period. The profile change alone does not establish tariff unsuitability.",Recommend human review due to changes in profile group and outcomes compared to flat pricing.,"Standing charges and fixed charges are excluded.
+The review threshold is not a monthly bill guarantee.
+Profile changes alone do not establish tariff unsuitability.
+Appliance types and causes of change are unknown.
+Future savings and rebates are not guaranteed.",Pending human review,,,

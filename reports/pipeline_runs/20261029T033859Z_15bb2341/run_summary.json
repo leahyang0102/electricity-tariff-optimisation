@@ -1,0 +1,30 @@
+{
+  "run_id": "20261029T033859Z_15bb2341",
+  "start_utc": "2013-12-01T00:00:00+00:00",
+  "end_exclusive_utc": "2014-01-01T00:00:00+00:00",
+  "households": 248,
+  "intervals": 369024,
+  "energy_kwh": 105683.3500028,
+  "customer_saving_gbp": 775.2854394344185,
+  "aggregate_saving_pct": 5.155979711770503,
+  "contribution_margin_pct": 25.49698668651288,
+  "minimum_margin_pct": 25.0,
+  "margin_constraint_pass": true,
+  "review_increase_threshold_pct": 2.0,
+  "paying_more": 33,
+  "above_review_threshold": 7,
+  "profile_changed": 1,
+  "profile_unavailable": 1,
+  "profile_comparable_households": 247,
+  "zero_baseline_households": 1,
+  "review_required": 35,
+  "rebates_applied": false,
+  "model_retrained": false,
+  "scope": "Historical evaluation from prepared database records",
+  "limitations": [
+    "Review thresholds apply to the evaluated period.",
+    "The 2% threshold is not a monthly bill guarantee.",
+    "Profile changes do not establish tariff unsuitability.",
+    "Variable costs are illustrative; contribution is not net profit."
+  ]
+}

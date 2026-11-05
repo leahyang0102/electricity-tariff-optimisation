@@ -1,0 +1,12 @@
+,value
+households,248.0
+households_assigned_tou,220.0
+households_remaining_flat,28.0
+baseline_charge_gbp,69616.04859348913
+assigned_charge_gbp,65690.55018177019
+total_customer_saving_gbp,3925.49841171895
+households_paying_less,213.0
+households_paying_more,7.0
+max_bill_increase_pct,2.765123268977219
+households_above_2pct_increase,1.0
+contribution_margin_pct,25.48510258595317

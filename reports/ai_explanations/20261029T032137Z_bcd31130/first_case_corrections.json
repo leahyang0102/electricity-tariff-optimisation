@@ -1,0 +1,36 @@
+[
+  {
+    "change": "Evidence path normalised",
+    "before": "assigned_tariff",
+    "after": "facts.assigned_tariff"
+  },
+  {
+    "change": "Evidence path normalised",
+    "before": "assigned_charge_gbp",
+    "after": "facts.assigned_charge_gbp"
+  },
+  {
+    "change": "Currency notation changed from £ to GBP"
+  },
+  {
+    "change": "Evidence path normalised",
+    "before": "charge_outcome_vs_flat",
+    "after": "facts.charge_outcome_vs_flat"
+  },
+  {
+    "change": "Evidence path normalised",
+    "before": "absolute_charge_difference_gbp",
+    "after": "facts.absolute_charge_difference_gbp"
+  },
+  {
+    "change": "Currency notation changed from £ to GBP"
+  },
+  {
+    "change": "Evidence path normalised",
+    "before": "absolute_charge_difference_pct",
+    "after": "facts.absolute_charge_difference_pct"
+  },
+  {
+    "change": "Historical simulation scope added to the first statement"
+  }
+]

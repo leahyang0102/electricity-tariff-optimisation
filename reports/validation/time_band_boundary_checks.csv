@@ -1,0 +1,14 @@
+case,interval_start_utc,expected_band,local_time,calculated_band,passed
+Winter off-peak end,2013-01-07 06:30:00Z,Off-peak,2013-01-07 06:30:00+00:00,Off-peak,True
+Winter shoulder start,2013-01-07 07:00:00Z,Shoulder,2013-01-07 07:00:00+00:00,Shoulder,True
+Winter before peak,2013-01-07 15:30:00Z,Shoulder,2013-01-07 15:30:00+00:00,Shoulder,True
+Winter peak start,2013-01-07 16:00:00Z,Peak,2013-01-07 16:00:00+00:00,Peak,True
+Winter peak end,2013-01-07 20:00:00Z,Shoulder,2013-01-07 20:00:00+00:00,Shoulder,True
+Summer off-peak end,2013-07-01 05:30:00Z,Off-peak,2013-07-01 06:30:00+01:00,Off-peak,True
+Summer shoulder start,2013-07-01 06:00:00Z,Shoulder,2013-07-01 07:00:00+01:00,Shoulder,True
+Summer peak start,2013-07-01 15:00:00Z,Peak,2013-07-01 16:00:00+01:00,Peak,True
+Summer peak end,2013-07-01 19:00:00Z,Shoulder,2013-07-01 20:00:00+01:00,Shoulder,True
+Weekend afternoon,2013-07-06 15:00:00Z,Shoulder,2013-07-06 16:00:00+01:00,Shoulder,True
+Spring clock change,2013-03-31 01:00:00Z,Off-peak,2013-03-31 02:00:00+01:00,Off-peak,True
+Autumn first 01:30,2013-10-27 00:30:00Z,Off-peak,2013-10-27 01:30:00+01:00,Off-peak,True
+Autumn second 01:30,2013-10-27 01:30:00Z,Off-peak,2013-10-27 01:30:00+00:00,Off-peak,True

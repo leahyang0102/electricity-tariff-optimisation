@@ -1,0 +1,39 @@
+{
+  "analysis_period": "2013-01-01 to 2013-06-30 (UTC interval starts)",
+  "households": 248,
+  "scenario": "All selected households switch to one candidate tariff",
+  "grid_combinations_evaluated": 48,
+  "grid_feasible_combinations": 0,
+  "continuous_optimisation_status": "infeasible",
+  "rate_bounds_gbp_per_kwh": {
+    "Peak": [
+      0.18,
+      0.24
+    ],
+    "Shoulder": [
+      0.12,
+      0.15
+    ],
+    "Off-peak": [
+      0.06,
+      0.1
+    ]
+  },
+  "required_contribution_margin_pct": 25.0,
+  "maximum_household_bill_increase_pct": 2.0,
+  "maximum_achievable_margin_pct_under_bill_limit": 24.028913023137243,
+  "margin_shortfall_percentage_points": 0.9710869768627575,
+  "diagnostic_rates_gbp_per_kwh": {
+    "Peak": 0.18,
+    "Shoulder": 0.12906531196201207,
+    "Off-peak": 0.1
+  },
+  "decision": "Do not select an all-household tariff under these assumptions",
+  "limitations": [
+    "Variable costs are illustrative assumptions.",
+    "Consumption is held unchanged across tariffs.",
+    "Standing charges and fixed costs are excluded.",
+    "The conclusion applies only within the specified rate bounds.",
+    "Validation-period performance has not been evaluated."
+  ]
+}

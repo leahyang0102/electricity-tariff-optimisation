@@ -1,0 +1,4 @@
+usage_segment,households,assigned_tou,baseline_charge_gbp,total_saving_gbp,median_saving_pct,households_paying_more,households_above_limit,aggregate_saving_pct
+Higher off-peak share,62,62,20299.149064134774,2304.8494547457735,8.819718915488071,0,0,11.354414155310874
+Higher peak share,61,35,14187.555202469262,139.36698818747544,0.0,5,1,0.9823185615744382
+Other profiles,125,123,35129.344326885104,1481.281968785701,4.676408160466659,2,0,4.216651341403062

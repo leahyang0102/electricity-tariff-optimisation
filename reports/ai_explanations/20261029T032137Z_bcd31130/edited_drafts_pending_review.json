@@ -1,0 +1,135 @@
+{
+  "CASE_001": {
+    "case_id": "CASE_001",
+    "source_run_id": "20261029T025921Z_333b1572",
+    "statements": [
+      {
+        "text": "In this historical tariff simulation, the assigned tariff for this household is 'Time-of-use'.",
+        "evidence_fields": [
+          "facts.assigned_tariff",
+          "interpretation_limits"
+        ]
+      },
+      {
+        "text": "The household's energy charges before rebates amount to GBP 312.33.",
+        "evidence_fields": [
+          "facts.assigned_charge_gbp"
+        ]
+      },
+      {
+        "text": "Compared to a flat tariff, the household is paying more with an absolute charge difference of GBP 0.56.",
+        "evidence_fields": [
+          "facts.charge_outcome_vs_flat",
+          "facts.absolute_charge_difference_gbp"
+        ]
+      },
+      {
+        "text": "The absolute charge difference represents a percentage increase of 0.18%.",
+        "evidence_fields": [
+          "facts.absolute_charge_difference_pct"
+        ]
+      }
+    ],
+    "suggested_review": "This case should be reviewed by a human analyst due to the higher energy charge.",
+    "limitations": [
+      "This is a historical tariff simulation.",
+      "Standing charges and fixed charges are excluded.",
+      "The review threshold is not a monthly bill guarantee.",
+      "Profile changes alone do not establish tariff unsuitability.",
+      "Appliance types and causes of change are unknown.",
+      "Future savings and rebates are not guaranteed."
+    ],
+    "review_status": "Pending human review"
+  },
+  "CASE_007": {
+    "case_id": "CASE_007",
+    "source_run_id": "20261029T025921Z_333b1572",
+    "statements": [
+      {
+        "text": "In this historical tariff simulation for July–December 2013 (UTC interval starts), energy charges before rebates were GBP 508.43, compared with GBP 494.75 under flat pricing. The increase was GBP 13.68 (2.77%).",
+        "evidence_fields": [
+          "facts.charge_basis",
+          "facts.assigned_charge_gbp",
+          "facts.baseline_charge_gbp",
+          "facts.absolute_charge_difference_gbp",
+          "facts.absolute_charge_difference_pct",
+          "facts.charge_outcome_vs_flat",
+          "period.start_utc",
+          "period.end_exclusive_utc",
+          "interpretation_limits"
+        ]
+      },
+      {
+        "text": "The increase exceeded the 2.00% review threshold for the evaluated period.",
+        "evidence_fields": [
+          "facts.above_review_threshold",
+          "facts.absolute_charge_difference_pct",
+          "facts.review_threshold_pct"
+        ]
+      },
+      {
+        "text": "The household remained in Other consumption profiles. An unchanged cluster assignment does not establish that its consumption pattern was unchanged.",
+        "evidence_fields": [
+          "facts.profile_changed",
+          "facts.design_profile_group",
+          "facts.evaluated_profile_group"
+        ]
+      }
+    ],
+    "suggested_review": "Human review is recommended for the recorded facts regarding changes in energy charges and the impact on the household's tariff assessment.",
+    "limitations": [
+      "Standing charges and fixed charges are excluded.",
+      "The review threshold is not a monthly bill guarantee.",
+      "Profile changes alone do not establish tariff unsuitability.",
+      "Appliance types and causes of change are unknown.",
+      "Future savings and rebates are not guaranteed."
+    ],
+    "review_status": "Pending human review"
+  },
+  "CASE_005": {
+    "case_id": "CASE_005",
+    "source_run_id": "20261029T025921Z_333b1572",
+    "statements": [
+      {
+        "text": "In this historical tariff simulation, energy charges before rebates were GBP 293.16, lower than flat pricing.",
+        "evidence_fields": [
+          "facts.assigned_charge_gbp",
+          "facts.charge_outcome_vs_flat",
+          "facts.charge_basis",
+          "interpretation_limits"
+        ]
+      },
+      {
+        "text": "Savings were GBP 62.29 (17.52%), calculated from the unrounded source charges.",
+        "evidence_fields": [
+          "facts.absolute_charge_difference_gbp",
+          "facts.absolute_charge_difference_pct"
+        ]
+      },
+      {
+        "text": "The household moved from Night-concentrated profile to Other consumption profiles.",
+        "evidence_fields": [
+          "facts.profile_changed",
+          "facts.design_profile_group",
+          "facts.evaluated_profile_group"
+        ]
+      },
+      {
+        "text": "The household still saved during the evaluated period. The profile change alone does not establish tariff unsuitability.",
+        "evidence_fields": [
+          "facts.charge_outcome_vs_flat",
+          "interpretation_limits"
+        ]
+      }
+    ],
+    "suggested_review": "Recommend human review due to changes in profile group and outcomes compared to flat pricing.",
+    "limitations": [
+      "Standing charges and fixed charges are excluded.",
+      "The review threshold is not a monthly bill guarantee.",
+      "Profile changes alone do not establish tariff unsuitability.",
+      "Appliance types and causes of change are unknown.",
+      "Future savings and rebates are not guaranteed."
+    ],
+    "review_status": "Pending human review"
+  }
+}

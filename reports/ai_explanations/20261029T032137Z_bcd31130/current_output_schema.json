@@ -1,0 +1,80 @@
+{
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "source_run_id": {
+      "type": "string"
+    },
+    "statements": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "evidence_fields": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": [
+                "facts.above_review_threshold",
+                "facts.absolute_charge_difference_gbp",
+                "facts.absolute_charge_difference_pct",
+                "facts.assigned_charge_gbp",
+                "facts.assigned_tariff",
+                "facts.baseline_charge_gbp",
+                "facts.charge_basis",
+                "facts.charge_outcome_vs_flat",
+                "facts.currency",
+                "facts.design_profile_group",
+                "facts.evaluated_profile_group",
+                "facts.paying_more",
+                "facts.profile_changed",
+                "facts.review_threshold_pct",
+                "interpretation_limits",
+                "period.end_exclusive_utc",
+                "period.start_utc"
+              ]
+            }
+          }
+        },
+        "required": [
+          "text",
+          "evidence_fields"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "suggested_review": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "Pending human review"
+      ]
+    }
+  },
+  "required": [
+    "case_id",
+    "source_run_id",
+    "statements",
+    "suggested_review",
+    "limitations",
+    "review_status"
+  ],
+  "additionalProperties": false
+}

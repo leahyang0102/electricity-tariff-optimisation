@@ -1,0 +1,24 @@
+{
+  "design_period": {
+    "start_utc": "2013-01-01T00:00:00Z",
+    "end_exclusive_utc": "2013-07-01T00:00:00Z"
+  },
+  "off_peak_threshold_pct": 21.6195662216526,
+  "peak_threshold_pct": 18.632955257771492,
+  "priority": [
+    "Higher off-peak share",
+    "Higher peak share",
+    "Other profiles"
+  ],
+  "reference_rates_gbp_per_kwh": {
+    "Peak": 0.24,
+    "Shoulder": 0.13,
+    "Off-peak": 0.06
+  },
+  "limitations": [
+    "Segments describe usage patterns, not willingness to change usage.",
+    "Reference rates were selected in a six-household pilot.",
+    "Bill comparisons exclude standing charges and behavioural changes.",
+    "Review flags use full-year data and are for sensitivity analysis only."
+  ]
+}

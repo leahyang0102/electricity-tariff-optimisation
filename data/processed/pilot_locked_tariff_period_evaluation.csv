@@ -1,0 +1,3 @@
+period,baseline_charge_gbp,candidate_charge_gbp,customer_saving_gbp,contribution_margin_pct,max_bill_increase_pct,households_paying_more,margin_constraint_pass,bill_constraint_pass
+Design,1733.066011846984,1640.3372995890002,92.72871225798394,25.250436600373554,-0.9061133275280131,0,True,True
+Validation,1651.1165736630878,1566.540439845,84.57613381808778,25.33893730635357,-0.08108475048067554,0,True,True

@@ -1,0 +1,4 @@
+usage_segment,households,total_design_kwh,median_design_kwh,median_peak_share_pct,median_off_peak_share_pct,flagged_households
+Higher off-peak share,62,169605.6579955,1912.88000005,13.252538958634434,25.136926381420544,2
+Higher peak share,61,115264.4279985,1721.8819999,20.73616130332517,13.955850268576464,1
+Other profiles,125,264328.8879797,1771.0380001,16.13569149311322,15.981016664344253,1

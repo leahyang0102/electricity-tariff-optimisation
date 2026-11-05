@@ -1,0 +1,20 @@
+{
+  "assessment": "Fixed-model H1-to-H2 profile consistency",
+  "households": 248,
+  "unchanged_households": 246,
+  "changed_households": 2,
+  "overall_consistency_pct": 99.19354838709677,
+  "changed_household_ids": [
+    "MAC004515",
+    "MAC005309"
+  ],
+  "model_retrained": false,
+  "limitations": [
+    "Consistency is not classification accuracy.",
+    "The overall percentage is dominated by the larger group.",
+    "Half-year averages can conceal monthly variation.",
+    "Profile changes do not establish their causes.",
+    "The larger group contains diverse consumption profiles.",
+    "Results concern the existing historical household sample."
+  ]
+}

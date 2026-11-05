@@ -1,0 +1,27 @@
+{
+  "scenario": "Design-based selective switching",
+  "selection_period": "2013-01-01 to 2013-06-30 (UTC interval starts)",
+  "evaluation_period": "2013-07-01 to 2013-12-31 (UTC interval starts)",
+  "selection_objective": "Maximise total design-period customer savings among feasible grid combinations",
+  "rates_gbp_per_kwh": {
+    "Peak": 0.22,
+    "Shoulder": 0.13,
+    "Off-peak": 0.08
+  },
+  "baseline_rate_gbp_per_kwh": 0.14228,
+  "variable_cost_rates_gbp_per_kwh": {
+    "Peak": 0.15,
+    "Shoulder": 0.1,
+    "Off-peak": 0.06
+  },
+  "minimum_portfolio_margin_pct": 25.0,
+  "validation_bill_increase_limit_pct": 2.0,
+  "assignment_rule": "Assign time-of-use only when design-period charges are lower; otherwise retain flat pricing",
+  "validation_rule": "Keep prices and assignments unchanged during evaluation",
+  "limitations": [
+    "Assignments simulate switching, not actual customer uptake.",
+    "Consumption is held unchanged across tariffs.",
+    "Standing charges and fixed costs are excluded.",
+    "Design-period savings do not guarantee validation-period savings."
+  ]
+}

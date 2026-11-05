@@ -1,0 +1,26 @@
+{
+  "billing_reconciliation": {
+    "status": "PASS",
+    "households": 248,
+    "fields_checked": 7,
+    "tolerance_gbp": 1e-06,
+    "method": "Independent household-level Decimal calculations"
+  },
+  "time_band_boundaries": {
+    "status": "PASS",
+    "scenarios": 13,
+    "coverage": "Weekdays, weekends, seasonal offsets and clock changes"
+  },
+  "band_export_reconciliation": {
+    "status": "PASS",
+    "intervals": 4344960,
+    "tolerance_kwh": 1e-06,
+    "method": "DuckDB classification compared with exported CSV totals"
+  },
+  "limitations": [
+    "Checks start from the prepared database and saved configuration.",
+    "Raw source ingestion was not independently re-audited.",
+    "Arithmetic agreement does not validate assumed costs or customer uptake.",
+    "Fresh-environment end-to-end reproduction has not yet been verified."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "development_pilot",
+  "household_ids": [
+    "MAC000002",
+    "MAC000006",
+    "MAC000010",
+    "MAC000018",
+    "MAC000019",
+    "MAC000027"
+  ],
+  "currency": "GBP",
+  "baseline_rate_gbp_per_kwh": 0.14228,
+  "selected_rates_gbp_per_kwh": {
+    "Peak": 0.24,
+    "Shoulder": 0.13,
+    "Off-peak": 0.06
+  },
+  "assumed_variable_costs_gbp_per_kwh": {
+    "Peak": 0.15,
+    "Shoulder": 0.1,
+    "Off-peak": 0.06
+  },
+  "constraints": {
+    "minimum_portfolio_contribution_margin_pct": 25,
+    "maximum_customer_bill_increase_pct": 2
+  },
+  "candidate_bands": {
+    "timezone": "Europe/London",
+    "peak": "Monday-Friday, 16:00-20:00",
+    "off_peak": "Every day, 00:00-07:00",
+    "shoulder": "All remaining intervals",
+    "bank_holidays_excluded": false
+  },
+  "periods": {
+    "basis": "UTC interval start",
+    "design": "2013-01-01 to 2013-06-30",
+    "validation": "2013-07-01 to 2013-12-31"
+  },
+  "limitations": [
+    "Six households selected from the first source file.",
+    "Annual results were inspected before time-split evaluation.",
+    "Prices selected from a finite candidate grid.",
+    "Costs are illustrative assumptions, not observed supplier costs.",
+    "Consumption is held constant across tariff scenarios.",
+    "Standing charges and fixed costs are excluded.",
+    "Original dynamic tariff schedule is not used in this scenario."
+  ]
+}
